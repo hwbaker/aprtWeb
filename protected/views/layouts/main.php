@@ -32,6 +32,7 @@
 				array('label'=>'主页', 'url'=>array('/site/index')),
 				array('label'=>'关于我们', 'url'=>array('/site/page', 'view'=>'about')),
                 array('label'=>'维修单管理项', 'url'=>array('/RepairOrder/Admin')),
+                array('label'=>'新建维修单', 'url'=>array('/repairOrder/Create')),
                 array('label'=>'对账汇总', 'url'=>array('/RepairOrder/AmountReport')),
 //				array('label'=>'Contact', 'url'=>array('/site/contact')),
 				array('label'=>'登录', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
